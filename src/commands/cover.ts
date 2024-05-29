@@ -25,7 +25,7 @@ function builder(yargs: Argv): Argv<Cover> {
         alias: 'a',
         describe: 'Number of attempts to improve tests',
         type: 'number',
-        default: 1,
+        default: 3,
     })
 }
 
