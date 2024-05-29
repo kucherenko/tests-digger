@@ -1,5 +1,6 @@
 node_modules
 dist
+build
 results
 .nyc_output
 *.tsbuildinfo
@@ -23,3 +24,4 @@ logs/*.gz
 *.log
 model.json
 tmp.sql
+fixtures

@@ -1,0 +1,25 @@
+{
+  "extends": "@sindresorhus/tsconfig",
+
+  "compilerOptions": {
+    "types": ["node", "jest"],
+    "rootDir": ".",
+    "outDir": "dist",
+    "target": "ESNext",
+    "lib": [
+      "ESNext"
+    ],
+    "noPropertyAccessFromIndexSignature": false,
+    "isolatedModules": true,
+    "module": "nodenext",
+  },
+  "include": [
+    "src",
+    "bin"
+  ],
+  "ts-node": {
+    "transpileOnly": true,
+    "files": true,
+    "experimentalResolver": true
+  }
+}
